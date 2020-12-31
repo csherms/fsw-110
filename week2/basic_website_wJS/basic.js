@@ -7,11 +7,11 @@ var links = document.createElement('ul');
 navBar.forEach(function (navigation) {
 	var li = document.createElement('li');
     li.textContent = navigation;
-    li.style.display = 'block';
+    li.style.display = 'inline-block';
     li.style.margin = '10px';
     li.style.padding = '10px';
     li.style.fontSize = '20px';
-    li.style.textAlign = 'center';
+    links.style.textAlign = 'center';
     li.style.color = '#3A0BE0';
     links.appendChild(li);
     document.body.append(links); 
@@ -54,7 +54,7 @@ list.forEach(function(myList) {
 });
 
 // Footer
-var footer = document.createElement('h3');
+var footer = document.createElement('footer');
 footer.textContent = '- - This is my Page Footer - -';
 footer.style.textAlign = 'center';
 footer.style.marginTop = '200px';
