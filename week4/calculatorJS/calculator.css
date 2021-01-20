@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    margin: 2rem;
+    background-color: rgb(104, 104, 104);
+}
+
+html{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 25px;
+}
+
+h3{
+    color: rgb(72, 7, 250);
+}
+
+div{
+    background-color: black;
+    padding: 2rem;
+}
+
+#addition{
+    margin: 2rem;
+    padding: 2rem;
+    color: rgba(5, 248, 244, 0.823);
+}
+
+#subtraction{
+    margin: 2rem;
+    padding: 2rem;
+    color: rgba(5, 248, 244, 0.823);
+}
+
+#multiplication{
+    margin: 2rem;
+    padding: 2rem;
+    color: rgba(5, 248, 244, 0.823);
+}
+
