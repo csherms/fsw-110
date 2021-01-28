@@ -1,0 +1,12 @@
+body{
+    box-sizing: border-box;
+    background-color: rgb(111, 111, 111);
+    
+}
+
+#myForm{
+    background-color:rgb(138, 157, 175);
+    border: 5px solid black;
+    padding: 4rem;
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>110 Week 5 Using Other Types of HTML Inputs</title>
+</head>
+
+<body>
+
+    <!-- Form Starts -->
+    <form name="myForm" id="myForm">
+
+        <h2>Enter your full name and age:</h2>
+
+        <input type="text" placeholder="FirstName" name="firstName">
+        <input type="text" placeholder="LastName" name="lastName">
+        <input type="number" placeholder="Age" name="age">
+
+        <br>
+        <h2>Gender:</h2>
+        <br>
+
+        Male: <input type="radio" value="Male" name="gender">
+        Female: <input type="radio" value="Female" name="gender">
+        <br>
+
+        <h2>Select Destination:</h2>
+
+        <select name="options">
+            <option value="Paris">Paris</option>
+            <option value="London">London</option>
+            <option value="Chicago">Chicago</option>
+        </select>
+
+        <h2>Any Dietary Restrictions? Choose all that apply:</h2>
+
+        Vegetarian:<input type="checkbox" value="Vegetarian" name="diet">
+        <br>
+        Kosher:<input type="checkbox" value="Kosher" name="diet">
+        <br>
+        Lactose Free:<input type="checkbox" value="Lactose Free" name="diet">
+
+        <br>
+        <br>
+        <button>Submit</button>
+    </form>
+    <!-- Form Ends -->
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
